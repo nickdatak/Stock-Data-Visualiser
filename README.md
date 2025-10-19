@@ -8,10 +8,12 @@ Dynamic stock ticker input with real-time data fetching
 
 Selection of different timeframes (1 month to max)
 
-Candlestick charts with 10, 50, 200-day moving averages
+Candlestick charts with 10, 50, and 200-day moving averages
 
-Financial summaries and metrics displayed in responsive columns
+Financial summaries and metrics are displayed in responsive columns
 
 Modular, clean, and customizable frontend with Bootstrap styling
+
+(To run the dashboard, you will have to use your own device, but a screenshot of the dashboard is attached below as well)
 
 **<img width="1470" height="828" alt="Screenshot 2025-10-20 at 00 39 04" src="https://github.com/user-attachments/assets/8a6d990f-5a32-4d2c-8c41-e6eeeba95e8b" />**
