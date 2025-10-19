@@ -1,4 +1,4 @@
-#Interactive Stock Data Dashboard
+# Interactive Stock Data Dashboard
 
 This project is an interactive stock data visualization dashboard built with Python, Dash, Plotly, and yFinance. It allows users to enter stock ticker symbols, select different timeframes, and visualize real-time stock prices, including candlestick charts with multiple moving averages. The app also displays detailed company information and financial metrics such as revenue, net income, and P/E ratio in an organized, modern layout with customizable styles.
 
