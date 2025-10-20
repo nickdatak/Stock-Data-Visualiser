@@ -16,4 +16,5 @@ Modular, clean, and customizable frontend with Bootstrap styling
 
 (To run the dashboard, you will have to use your own device, but a screenshot of the dashboard is attached below as well)
 
-**<img width="1470" height="828" alt="Screenshot 2025-10-20 at 00 39 04" src="https://github.com/user-attachments/assets/8a6d990f-5a32-4d2c-8c41-e6eeeba95e8b" />**
+<img width="1470" height="832" alt="Screenshot 2025-10-20 at 17 22 02" src="https://github.com/user-attachments/assets/5f2ee85d-449f-4f9a-9927-794bb81d1e1b" />
+
