@@ -1,66 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+            body {
+                background-color: #1E1E1E;
+                color: #FFFFFF;
+                font-family: "Montserrat", sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .app-container {
+                padding: 20px;
+                max-width: 1600px;
+                margin: auto;
+            }
+            .app-header {
+                text-align: center;
+                margin-bottom: 25px;
+                color: #ffffff;
+            }
+            .input-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 30px;
+            }
+            .stock-input {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #555;
+                background-color: #333;
+                color: white;
+                width: 250px;
+            }
+            .timeframe-dropdown {
+                width: 150px;
+            }
+            /* Make dropdown text visible */
+            .timeframe-dropdown .Select-control, .timeframe-dropdown .Select-value-label, .timeframe-dropdown .Select-menu-outer {
+                background-color: #333 !important;
+                color: white !important;
+            }
+             .timeframe-dropdown .Select--single > .Select-control .Select-value, .timeframe-dropdown .Select-placeholder {
+                color: white !important;
+            }
 
-
-.app-container {
-    padding: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    background-color: #272727;
-    color: white;
-    min-height: 100vh;
-}
-
-/* Input styling */
-.input-container {
-    width: 320px;
-    margin-bottom: 30px;
-}
-
-.stock-input {
-    width: 100%;
-    padding: 12px 16px;
-    font-size: 18px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    background-color: #ffffff;
-    color: #000000;
-    box-shadow: inset 0 0 5px #b1b1b1;
-    transition: box-shadow 0.3s ease;
-}
-
-.stock-input::placeholder {
-    color: #9a9a9a;
-}
-
-.stock-input:focus {
-    box-shadow: 0 0 10px #ffffff;
-}
-
-.graphs-row {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.graph-column {
-    flex: 1 1 45%;
-    min-width: 300px;
-    border-radius: 25px;
-}
-
-.company-info {
-    display: block;
-    font-size: 16px;
-    width: 45%;
-    margin-left: 0;
-    margin-bottom: 25px;
-}
-
-.company-info > * {
-    background-color: #434343;
-    padding: 15px;
-    border-radius: 15px;
-}
+            .content-row {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .main-column {
+                flex: 3;
+                min-width: 600px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .side-column {
+                flex: 1;
+                min-width: 350px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .chart, .info-panel {
+                background-color: #2E2E2E;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            }
+            .info-item { margin: 5px 0; color: #ccc; }
+            .business-summary { font-size: 0.9em; color: #bbb; margin-top: 15px; max-height: 200px; overflow-y: auto;}
